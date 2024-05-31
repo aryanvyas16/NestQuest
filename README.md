@@ -20,27 +20,30 @@ React: The frontend of the website is built using **React** , a powerful JavaScr
 It handles the display of property listings, detailed property views, search functionalities, user authentication, and interactions.
 
 ## Backend
-Node.js: The server-side of the application is built using **Node.js**, a JavaScript runtime that allows developers to run JavaScript on the server. Node.js handles the backend logic, processes user requests, and manages server operations.
-Express.js: Express is a web application framework for Node.js, used to build the backend API. It simplifies the development of server-side code, routing, and middleware, enabling efficient handling of HTTP requests and responses.
+Node.js: The server-side of the application is built using **Node.js**, a JavaScript runtime that allows developers to run JavaScript on the server. Node.js handles the backend logic, processes user requests, and manages server operations.<br/>
+Express.js: Express is a web application framework for Node.js, used to build the backend API. It simplifies the development of server-side code, routing, and middleware, enabling efficient handling of HTTP requests and responses.<br/>
 Database
 MongoDB: MongoDB is a NoSQL database used to store the application’s data. It stores property details, user information, and other relevant data in a flexible, JSON-like format, allowing for easy retrieval and manipulation. MongoDB’s scalability and performance make it suitable for handling large volumes of real estate data.
 
 ## Core Features
-Property Listings 
-Search and Filters 
-Property Details
-User Authentication
-Admin Panel
-Responsive Design
+Property Listings  <br/>
+Search and Filters  <br/>
+Property Details  <br/>
+User Authentication  <br/>
+Admin Panel    <br/>
+Responsive Design  <br/>
 
 ## Additional Features
-Map Integration: Integration with mapping services (e.g., Google Maps) to display property locations.
-Contact Forms: Forms for users to contact sellers or agents directly through the website.
-Reviews and Ratings: Users can leave reviews and ratings for properties and agents.
-Payment Integration: For premium listings or services, integrate payment gateways to handle transactions.
-Benefits of Using the MERN Stack
-Unified Language: JavaScript is used across the entire stack, simplifying development and maintenance.
-Performance: Efficient handling of client and server-side operations.
-Scalability: Easy to scale components independently, supporting growth and increased traffic.
-Community Support: Strong community and extensive libraries and tools available for the MERN stack.
-This MERN-based real estate website aims to provide a comprehensive, user-friendly platform for buying, selling, and renting properties, leveraging modern web technologies to deliver a robust and scalable solution.
+-> Map Integration: Integration with mapping services (e.g., Google Maps) to display property locations. <br/>
+-> Contact Forms: Forms for users to contact sellers or agents directly through the website. <br/>
+-> Reviews and Ratings: Users can leave reviews and ratings for properties and agents.  <br/>
+-> Payment Integration: For premium listings or services, integrate payment gateways to handle transactions.
+
+## Benefits of Using the MERN Stack
+-> Unified Language: JavaScript is used across the entire stack, simplifying development and maintenance.<br/>
+-> Performance: Efficient handling of client and server-side operations. <br/>
+-> Scalability: Easy to scale components independently, supporting growth and increased traffic.<br/>
+-> Community Support: Strong community and extensive libraries and tools available for the MERN stack.<br/>
+
+This MERN-based real estate website aims to provide a comprehensive, user-friendly platform for buying, selling, and renting properties,<br/>
+leveraging modern web technologies to deliver a robust and scalable solution.
