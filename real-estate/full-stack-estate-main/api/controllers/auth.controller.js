@@ -2,15 +2,16 @@ import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 import prisma from "../lib/prisma.js";
 
+//here functions are created for diff purp
+//db operations
 export const register = async (req, res) => {
   const { username, email, password } = req.body;
 
   try {
     // HASH THE PASSWORD
-
+    //CREATE NEWUSER AND SAVE IT TO THE DB
     const hashedPassword = await bcrypt.hash(password, 10);
-
-    console.log(hashedPassword);
+    console.log(hashedPassword);                            //so here we got the encrypted passswords
 
     // CREATE A NEW USER AND SAVE TO DB
     const newUser = await prisma.user.create({
@@ -51,9 +52,10 @@ export const login = async (req, res) => {
 
     // GENERATE COOKIE TOKEN AND SEND TO THE USER
 
-    // res.setHeader("Set-Cookie", "test=" + "myValue").json("success")
+    // res.setHeader("Set-Cookie", "test=" + "myValue").json("success")      //with cookiename and value
     const age = 1000 * 60 * 60 * 24 * 7;
 
+    //so token is for 1 week only
     const token = jwt.sign(
       {
         id: user.id,
