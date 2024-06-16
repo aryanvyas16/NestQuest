@@ -1,6 +1,8 @@
 # AuthController Documentation
 
 This documentation provides an overview of the `AuthController` implementation, which includes user authentication using JWT, cookie management, and database interaction with Prisma and MongoDB.
+![Screenshot 2024-06-03 234451](https://github.com/aryanvyas16/Real-Estate/assets/113963972/e403d7e7-bd8c-4a15-a238-92346f02a01e)
+
 
 ## Overview
 
@@ -28,6 +30,8 @@ Prisma is used to interact with our MongoDB database. We save user details such 
 ### Cookie Management
 
 We use cookies to store user sessions. Cookies are set with a name and value, and managed using the `cookie-parser` library to simplify JWT handling.
+![Screenshot 2024-06-06 162718](https://github.com/aryanvyas16/Real-Estate/assets/113963972/4d967e12-348c-4568-a7f5-5c4c56b0534a)
+
 
 ### JWT Token
 
@@ -44,6 +48,8 @@ We use cookies to store user sessions. Cookies are set with a name and value, an
 
 - **Invalid Token**: If a user makes a request with an invalid token, an error is returned.
 - **Unauthorized Actions**: If a user tries to delete a post that does not belong to them, an error is returned.
+- ![Screenshot 2024-06-07 230438](https://github.com/aryanvyas16/Real-Estate/assets/113963972/993c5c75-a832-4c78-8634-33d93680ed55)
+
 
 ### Example Workflow
 
