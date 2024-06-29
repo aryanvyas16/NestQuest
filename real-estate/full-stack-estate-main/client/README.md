@@ -26,8 +26,6 @@ Welcome to the React Real Estate Project! This project is a web application that
 
 
 
-### Profile
-![Screenshot 2024-06-29 103249](https://github.com/aryanvyas16/Real-Estate/assets/113963972/61138337-e0bb-4bc1-b2f9-7081f9e459aa)
 
 
 
