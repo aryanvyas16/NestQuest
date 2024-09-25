@@ -3,7 +3,8 @@ A real estate website leverages the MERN stack— **MongoDB, Express.js, React, 
 —to create a full-stack web application for real estate listings and management. 
 Here’s a brief description of how each component contributes to the website:
 
-![Screenshot 2024-06-29 103039](https://github.com/aryanvyas16/Real-Estate/assets/113963972/8abd9df8-f48c-4684-a40c-b22fd40a1016)
+![Screenshot 2024-09-25 153240](https://github.com/user-attachments/assets/9e17108a-04f9-4bbc-a89d-161d6dcf9f22)
+
 
 
 
