@@ -12,7 +12,8 @@ Welcome to the React Real Estate Project! This project is a web application that
 ## Screenshots
 
 ### Home Page
-![Screenshot 2024-06-29 103039](https://github.com/aryanvyas16/Real-Estate/assets/113963972/672ff225-fa12-44e2-9663-5ff1aed0358d)
+
+![Screenshot 2024-09-25 153240](https://github.com/user-attachments/assets/fdb82fc8-7725-4c48-ade9-c4f15f04e158)
 
 
 
